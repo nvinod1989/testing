@@ -1,0 +1,20 @@
+pipeline {
+  agent any 
+    stages {
+       stage("scm poll/build") {
+          steps{
+        # hello build 
+               }
+       }   
+       stage("test") {
+          steps{
+            # im in testing
+               }
+       }
+       stage("deploy") {
+           steps{
+             # im in deploy statge
+                }
+       } 
+    }
+}
